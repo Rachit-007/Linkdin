@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+}
+
+#navigation{
+    display: flex;
+    height: 4rem;
+ 
+}
+#logo{
+    margin-left: 3rem;
+}
+
+ul {
+    text-decoration: none;
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+}
+
+
+#me{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+#dropdownme{
+    text-decoration: none;
+    border: none;
+}
+#pages a{
+    text-decoration: none;
+    color: black;
+}
+#home{
+    margin-left: 30px;
+    margin-top: 0.6rem;
+}
+
+
+#pages{
+    display: flex;
+    /* margin-left: 200px; */
+    margin-left: 8rem;
+}
+#network{
+        margin-left: 30px;
+        margin-top: 0.6rem;
+}
+
+#jobs{
+    margin-left: 30px;
+    margin-top: 0.6rem;
+}
+
+
+.homepage{
+    display: flex;
+}
+.post{
+    margin-top: 8rem;
+    margin-left: 3rem;
+}
+.postbar{
+    padding: 0.8rem; 
+    border: 1px solid lightgray;
+     border-radius: 40px;
+     margin-top: 1.4rem;
+     margin-left: 1rem;
+}
+
+.posting{
+    display: flex; 
+    flex-direction: row;
+}
+.photo{
+    margin-left: 1.7rem;
+    margin-top: 1rem;
+    display: flex;
+}
+.photo p{
+    padding-left: 0.8rem;
+
+}
+.photo p:hover{
+    color: black;
+}
+
+
+.photo a{
+    text-decoration: none;
+}
+.phototext{
+    margin-left:-3px;
+    padding-top: 4px;
+}
+.add{
+    display: flex;
+}
+.profile{
+    display: flex;
+}
+.followbutton{
+    border: none;
+    text-decoration: none;
+    background-color: white;
+    transition: 0.3s;
+}
+.followbutton:hover{
+    background-color:lightgray;
+    transform: scale(1.1);
+}
+.options{
+    display: flex;
+}
+.like{
+    text-decoration: none;
+    border: none;   
+    background-color: aliceblue;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.like:hover{
+    transform: scale(1.05);
+    background-color: lightgray;
+}
+.comment{
+    text-decoration: none;
+    border: none;   
+    background-color: aliceblue;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.comment:hover{
+    transform: scale(1.05);
+    background-color: lightgray;
+}
+#news1 li:hover{
+    background-color: #EEEEEE;
+}
+#stick{
+    position: sticky;
+    top: 50px;
+}
